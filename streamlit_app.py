@@ -3,5 +3,5 @@ import streamlit as st
 st.title("🎈 My new app")
 import streamlit as st
 
-age = st.slider("How old are you?", 0, 130, 25)
-st.write("I'm ", age, "years old")
+color = st.color_picker("Pick A Color", "#00f900")
+st.write("The current color is", color)
